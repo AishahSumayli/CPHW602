@@ -18,9 +18,9 @@ def is_even(number):
 def main():
     number = int(input("Enter integer number"))
     if is_even(number):
-        print("The number is even.")
+        print(is_even(number),"The number is even.")
     else:
-        print ("The number is odd.")
+        print (is_even(number),"The number is odd.")
         return 0
 main()
     
